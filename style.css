@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.last-section >img{
+    width: 58vh;
+    height: auto;
+}
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: "poppins",serif;
+}
+
+.navbar {
+    position: relative;
+    top: 43px;
+    left: 4%;
+}
+
+
+.list {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 100px;
+    position: absolute;
+    left: 59%;
+    top: 4%;
+    color: #758283;
+}
+
+.list :first-child {
+    color:#0D0D0D;
+
+}
+.logo{
+    width: 6%;
+    height: auto;
+}
+.Icons{
+display: inline-grid;
+    float: right;
+    gap: 40px;
+    margin-right: 3%;
+    margin-top: 12vh;
+}
+.rfstudio{
+    margin-top: -3%;
+    width: 37%;
+    height: auto;
+}
+
+hr{
+    border: solid 1px black;
+    width: 21%;
+    margin-left: 36%;
+    margin-top: -4vh;
+}
+.Main-Heading{
+position: relative;
+left: 85vh;
+bottom: 90vh;
+font-family: 'Merriweather', serif;
+}
+.crea-heading{
+    font-size: 16vh;
+    position: relative;
+    bottom: 6vh;
+}
+.span1{
+font-size: 16vh;
+    font-weight: 600;
+    padding: 18vh;
+    position: relative;
+    bottom: 12vh;
+}
+.span2{
+position: absolute;
+    font-size: 4vh;
+    font-weight: 100;
+    width: 20vh;
+    left: 34%;
+    top: 38%;
+    color:#505253;
+}
+.btn{
+    position: absolute;
+    right: 3%;
+    top: 48%;
+    padding: 17px 85px;
+    background-color: rgba(29, 28, 28, 0.841);
+    color: #fff;
+    font-size: 20px;
+}
+.Skills{
+    position: relative;
+    bottom: 126vh;
+    left: 41%;
+    font-size: 19px;
+    list-style-type: none;
+    font-weight: 300;
+}
+.Skills p {
+    margin-bottom: 26px;
+    font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.last-section{
+    position: relative;
+    left: 122vh;
+    bottom: 163vh;
+}
+
+.last-section h2{
+font-size: 18px;
+width: 70vh;
+font-weight: 300;
+}
+
+.vl{
+background-color:#828282;
+    width: 0.5px;
+    height: 250px;
+    position: relative;
+    bottom: 90vh;
+    left: 84vh;
+}
+
+.circle{
+width: 10px;
+height: 10px;
+border-radius: 50%;
+background-color:#828282;
+display: inline-block;
+margin-right: 20px;
+position: relative;
+left: -5px;
+margin-bottom: 40px;
+}
+
+.fa-solid{
+    font-size: 35px;
+}
+.down-arrow {
+    background-color: #282727;
+    width: 1.5px;
+    height: 140px;
+    position: relative;
+    left: 206vh;
+    bottom: 194vh;
+}
+.down-arrow .line{
+    background-color: #373636;
+    width: 1.5px;
+    height: 25px;
+    position: absolute;
+    left: 6px;
+    bottom: -1px;
+}
+.down-arrow .left{
+    transform: rotate(30deg);
+}
+.down-arrow .right{
+    transform: rotate(-30deg);
+    position: absolute;
+    left: -6px;
+    bottom: -1px;
+}
